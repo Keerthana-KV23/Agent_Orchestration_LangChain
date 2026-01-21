@@ -14,7 +14,6 @@ from langchain_core.output_parsers import StrOutputParser
 import wikipedia
 import arxiv
 
-
 # Load environment variables
 load_dotenv()
 
