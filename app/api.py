@@ -46,4 +46,3 @@ async def echo(data: UserRequest):
 async def run_agents(data: UserRequest):
     result = orchestrator(data.user_input)
     return result
-
