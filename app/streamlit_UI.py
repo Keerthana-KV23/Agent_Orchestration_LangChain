@@ -24,7 +24,7 @@ os.environ["HF_HUB_DISABLE_PROGRESS_BARS"] = "1"
 # =========================
 import streamlit as st
 from dotenv import load_dotenv
-from app import orchestrator
+import orchestrator
 
 # =========================
 # LOAD ENV
